@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(0, 10, 100);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+    width: 200px;
+    margin: 1rem;
+}
+
+.number1 {
+    border: 2px solid black;
+    box-shadow: 8px 8px  rgb(245, 241, 241);
+    color: white;
+    font-size: 50px;
+    background-image: linear-gradient(rgb(255, 0, 0), rgba(0, 0, 255, 0.904));
+}
+
+.number2 {
+    border-radius: 50%;
+    border: 3px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 5px 5px 2px black;
+}
+
+.number3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 50%;
+    box-shadow: 5px 6px white;
+}
+
+.number4 {
+    box-shadow: -8px -8px white;
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px 2px black;
+    border: 3px solid black;
+}
+
+.number5 {
+    border: 5px dashed black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+
+.number6 {
+    width: 200px;
+    height: 100px;
+    border: 3px solid black;
+    background-image: linear-gradient(rgb(255, 0, 0), rgba(0, 0, 255, 0.904));
+    font-size: 50px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+

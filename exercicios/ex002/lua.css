@@ -1,0 +1,26 @@
+div {
+    background-color: rgb(0, 0, 0);
+    width: 90px;
+    height: 90px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.minguante {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.crescente {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin-top: -10px;
+    margin-right: 50px;
+
+}
