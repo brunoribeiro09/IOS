@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+section.borda {
+    width: 1300px;
+    height: 948px;
+    border: 1px solid black;
+    margin: 25px;
+    display: flex;
+}
+
+section > .barra1 {
+    width: 29px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 91%;
+    background-color: rgba(0, 0, 0, 0.473);
+    z-index: 999;
+}
+
+section > .barra2 {
+    width: 34px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: 90%;
+    background-color: rgba(0, 0, 0, 0.473);
+    z-index: 999;
+}
+
+.arcade {
+    position: absolute;
+    top: 5%;
+    right: 30%;
+}
+
+.arcade > .bordaarcade { /*Borda Interna em volta do nome ARCADE*/
+    margin-top: 20px;
+    top: 20%;
+    width: 1093px;
+    height: 173px;
+    position: relative;
+    left: 26%;
+    background-color: rgb(77, 77, 77);
+    box-shadow: 0 -20px 50px rgba(82, 224, 0, 0.733) , 0 -25px 10px rgba(226, 247, 45, 0.733) ;
+}
+
+.bordaarcade > .bordaarcade1 { /*Barrinha Direita*/
+    width: 30px;
+    height: 173px;
+    background-color: rgba(0, 0, 0, 0.733);
+    position: absolute;
+    right: 8%;
+    top: 0%;
+}
+
+.bordaarcade > .bordaarcade2 { /*Barrinha Esquerda*/
+    width: 32px;
+    height: 173px;
+    background-color:  rgba(0, 0, 0, 0.733);
+    position: absolute;
+    left: 10%;
+    top: 0%;
+}
+
+.bordaarcade > .bordainterna {
+    width: 834px;
+    height: 110px;
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 50px;
+    padding-bottom: 28px;
+    background-color: yellow;
+}
+
+/*FIM DO NOME "ARCADE"*/
+
+/*COMEÇO DO CORPO*/
+
+.partesuperior > .supleft {     /*Parte do ARCADE - Esquerdo*/
+    width: 110px;
+    height: 95px;
+    background-color: rgb(15, 15, 15);
+    transform: skewX(45deg);
+    position: absolute;
+    left: 27%;
+    margin-left: 5px;
+}
+
+.partesuperior > .supcenter {       /*Parte do ARCADE - Centro*/
+    width: 958px;
+    height: 95px;
+    background-color: rgb(15, 15, 15); 
+    position: absolute;
+    left: 32%;
+}
+
+.partesuperior > .supright {    /*Parte do ARCADE - Direita*/
+    width: 100px;
+    height: 95px;
+    background-color: rgb(15, 15, 15);
+    transform: skewX(-45deg);
+    position: absolute;
+    right: -24%;
+}
+
+.partesuperior > .left {   /*Parte INFERIOR DO DISPLAY - Lado Esquerdo*/
+    width: 100px;
+    height: 98px;
+    background-color: black;
+    position: absolute;
+    bottom: -46%;
+    left: 11%;
+    transform: skewX(-45deg);
+    margin-left: 1px;
+}
+
+.partesuperior > .center {      /*Parte INFERIOR DO DISPLAY - Centro*/
+    width: 958px;
+    height: 98px;
+    background-color: black; 
+    position: absolute;
+    left: 15%;
+    bottom: -46%;
+}
+
+.partesuperior > .right {       /*Parte INFERIOR DO DISPLAY - Lado Direito*/
+    width: 102px;
+    height: 98px;
+    background-color: black;
+    position: absolute;
+    right: 10%;
+    bottom: -46%;
+    margin-right: 5px;
+    transform: skewX(45deg);
+}
+
+.partesuperior > .bordadisplay {
+    width: 960px;
+    height: 555px;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    top: 48%;
+    right: 14%;
+}
+
+.partesuperior > .lateralesquerdatop {
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 49%;
+    left: 5%;
+}

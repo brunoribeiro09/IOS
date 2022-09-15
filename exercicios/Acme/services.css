@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-color: #1010c470;
+    color: #191970;
+}
+h1{
+    background-color: #191970;
+    color: rgb(230, 230, 250);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+nav > a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(18, 18, 41);
+}
+
+nav > a:hover {
+    background-color: darkgrey;
+    color: black;
+}
+
+dl {
+    font-size: 20px;
+}
+
+dt {
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 30px;
+}
+dd {
+    text-align: center;
+    line-height: 50px;
+    margin-right: 40px;
+}

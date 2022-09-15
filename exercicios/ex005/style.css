@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.um {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 21%;
+    right: 50%;
+}
+
+.dois {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    position: absolute;
+    transform: rotate(-35deg);
+    top: 40%;
+    right: 55%;
+}
+
+.tres {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    position: absolute;
+    transform: rotate(35deg);
+    top: 40%;
+    left: 48%;
+}
+
+.quatro {
+    width: 150px;
+    height: 80px;
+    background-color: black;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 42%;
+    right: 48%;
+}
+
+.cinco  {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    position: absolute;
+    transform: rotate(-80deg);
+    top: 68%;
+    right: 51%;
+}
+
+.seis  {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    position: absolute;
+    transform: rotate(80deg);
+    top: 68%;
+    left: 44%;
+}
+

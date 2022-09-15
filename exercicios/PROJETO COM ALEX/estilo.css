@@ -1,0 +1,19 @@
+div{
+  
+
+
+    width: 200px;
+    height: 0px;
+    
+
+
+    margin: 50px;
+    position: relative;
+    left: 200px;
+
+    border-top: 100px solid blue;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+
+}
+

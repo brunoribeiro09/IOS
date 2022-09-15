@@ -1,0 +1,102 @@
+/*esse arquivo tem como esclarecer seus respectivos valores*/
+/*a sintaxe do css ou seja a forma como se escreve o codigo ,é assim:propriedade:valor1
+propriedade:valor1
+exemplo:
+width:50px
+onde
+width é minha propriedade e 50px é o meu valor,
+o ";"é obrigatorio e a ausência desse sinal é caracterizado como erro de sintese*/
+/*o css é responsavel por realizar a estilização e organização do conteudo html e para essa conexão anconter é preciso vincular o css ao html sendo assim, faz-se necessario ter um seletor.*/
+/*o seletor pode ser:
+-tags exemplos body,div,p,[...]
+-class exemplo:cor,tamanhoALtura
+-id exemplo:#menu, #primeiro_seção*/
+/* como utilizar os seletores
+exemplo com tags: 
+div{backgroud-color:blue;}
+exemplo de class: 
+.miniclass{ color:white;}
+**A classe deve ser atribuida em alguma tag no html antes ou depois  da sua definição no css para sutir efeito**
+exemplo com ID: 
+#meuID{fort-size: 1rem;}
+**segue a mesma regra de manutenção da class**
+*/
+/*
+exemplo de uso do css
+
+#meuID{
+    text-shadow:3px 3px 1px black
+}
+** o "#" sinaliza para o css que o elemento a ser manipulado no html tem um (ID="euID") na sintexe de sua tag;
+assim sendo seguido do nome do id junto com o par de "{}" a dntro do par de chaves onde a nossa propriedades css!
+
+no exemplo acima selecionamos o elemento com ID(meuID) e aplicamos a propriedade (marguin) para todos os lados do box com valor 0 
+*/
+
+/*
+body é o elemento que representa o corpo o corpo do site(a tela)
+*/
+body{background-color: blue;/*cor de fundo*/
+    font-size: 1.5rem;/* define o conjunto de fontes a ser utilizada*/
+    padding: 0;/*define o preenchimento-inteiro de zaro para todo*/
+    margin: 0;/*define margem zero para todos os lados*/
+    /*os elementos html são representaddos pela ideia de uma caixa*/
+    /*como isso obtem-se 4 lados topo,direita,esquerda suas propriedades são 
+    top,right,bottom,laft*/
+ 
+
+
+}
+div{
+    background-color: blueviolet;
+    color: wheat;/*cor do texto*/
+    width: 200px;/*largura*/
+    height: 200px;/*altura*/
+    border-top: 3px solido orange;/*bordar aplicada ao topo do tipo solida*/
+    border-right:5px dashed red ;/*borda aplicada a direita */
+    border-left:1px dotted#fff ;/*bordar aplicada a esquerda*/
+    border-bottom: 4px double cyan;/*bordar aplicada a inferior do tipo lina dupla*/
+    /*border:1px solid black;*//*maneira abreviada para declarção de bordas*/
+    box-shadow: 5px 5px 1px red;/*projetar a sombra do elemento*/
+    /*primeiro valor:declaração horizontal*/
+    /*segundo valor:declaraçao vertical*/
+    /*terceiro valor:intencidade de desfoque(blur) seguido da cor*/
+    margin: 0 auto;/*alinha as caixas de centro através das margens*/
+    /*o valor: "0"irar definir zero de margen no bottom*/
+    /*o valor: "auto" calcula automaticamente a margen para right*/
+
+}
+ /*algumas propriedades podem ser combinadas com outras
+   exemplo: "border"é a propriedade para marcar uma linha(borda) nas extremidades da tag quando combina com a propriedade
+   "bottom"marca a borda na parte inferior da box.
+*/ 
+ /*nivel de expecificação*/
+   /*no css temos maneiras para especificar qual elementos ou conjunto deles que nós queromos manipular, para isso temos a sintexe dos seletores a sintexe abaixo especifica que as propriedades css serão aplicadas par atodos os parágrafos que estão dentro de uma div*/
+   div> p{
+    line-height: 50px;/*define o tamanho da linha */
+    letter-spacing: 5px;/*define a distância*/
+    text-indent: 7px; /*alinhamento do texto*/
+    text-align: center; /*transforma o texto em maiúlo/minúsculo/primeira letra meúscula de cadapalavra*/
+    text-decoration: underline;cu
+    text-shadow: -3px -6px 1px yellow; /*projeta sombra no texto*/
+     /*mesmas regras do box shadow,observe que a numeração negativa muda a direção da sombra*/
+}
+/*niveis de especificações por classe*/
+/*utiliza-se o"."segundo do nome da classe*/
+
+.posição{
+    position: absolute;/*define o comportamento da posições do elemento*/
+    /*static;(padrão-default)posicionamento estático-ausente de movimentações*/
+    /*absolute: posicionamento do box ira respeitar as coordenadas pela tambem propriedades de coordenadas sendo elas  
+    top,right,bottom e leftusando o body como referencia*/
+    /*fixed: posição é fixa*/
+    top: 0;
+    right:0;
+
+}
+/*nivel de especificação por ID*/
+/*utiliza-se o"#"segundo do nome do ID*/
+exibição{
+    /*dysplay significa exibição */
+    display: none;/*none= "nenhum" */
+}
