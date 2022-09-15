@@ -147,11 +147,14 @@ section > .barra2 {
 .partesuperior > .bordadisplay {
     width: 960px;
     height: 555px;
-    border: 1px solid black;
+    border: 4px solid black;
     background-color: white;
     position: absolute;
     top: 48%;
     right: 14%;
+    outline: hotpink solid 5px;
+    outline-offset: 10px;
+    box-sizing: border-box;
 }
 
 .partesuperior > .lateralesquerdatop {
