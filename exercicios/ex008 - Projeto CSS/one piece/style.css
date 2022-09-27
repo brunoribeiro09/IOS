@@ -14,6 +14,7 @@ header > section {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    height: 100px;
 }
 
 header > section > img {
@@ -41,7 +42,7 @@ nav > ul > li:hover {
     background-color: #ffba0b;
     color: white;
     border-radius: 8px;
-    transition: 5s cubic-bezier(0, 0.74, 1, 0.65);
+    transition: 1s cubic-bezier(0, 0.74, 1, 0.65);
     box-shadow: 
                 0 0 8px #fae5ae
                 0 0 8px #1d1a14
@@ -60,3 +61,40 @@ nav > ul > li:hover {
     margin-left: 155px;
 }
 
+iframe {
+    height: 500px;
+    width: 800px;
+    position: relative;
+    left: 50%; transform: translate(-50%);
+
+}
+
+.texto{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+    margin: 100px 200px 0px 200px;
+}
+
+.texto > div {
+    text-align: center;
+}
+
+.texto > div > h2:hover {
+    color: red;
+}
+
+.texto > div > p {
+    width: 400px;
+    font-size: 27px;
+    letter-spacing: 3px;
+}
+
+.texto > img {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    width:550px ;
+    height:500px;
+}
