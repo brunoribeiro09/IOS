@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header {
+    width: 100%;
+}
+
+header > ul {
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+header > ul > li {
+    padding: 0.4rem;
+    margin: 50px 50px 150px 0px;
+}
+
+header > img {
+    width: 350px;
+    height: 200px;
+}
+
+.esquerda{
+    height: 100px;
+    width: 50%;
+ 
+}
+
+.esquerda h1, p {
+    width: 100%;
+    font-weight: 700px;
+    margin-left: 40px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+button{
+    background-color: #ff7200;
+    padding: 16px;
+    cursor: pointer;
+    border-radius: 4%;
+    margin-left: 15px;
+}
+
+main > .direita > img{
+    float: right;
+    margin-left: 150px;
+}
